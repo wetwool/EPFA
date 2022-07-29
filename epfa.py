@@ -13,7 +13,6 @@
 import sys
 import re
 import argparse
-from xmlrpc.client import Boolean
 
 ## Set up command line arguments parser with defaults
 # source file is expected as a path with no flags
