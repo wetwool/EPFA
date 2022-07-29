@@ -22,6 +22,7 @@ The Script can be used from the command line or as a post-processing script in P
 #### Examples: 
 Call with default parameters:
 > ./epfa.py /path/to/file.gcode
+
 Set fan speed to 85% an start at second layer
 > ./epfa.py /path/to/file.gcode -s 85 -l 2
 
@@ -29,7 +30,9 @@ Set fan speed to 85% an start at second layer
 - Navigate to _Print Settings -> Output Options -> Post-Processing scripts_
 - Depending on your system, enter the path to python and to the script with params or just the script 
 > "/path/to/epfa.py" -s 99.2
+
 or
 > python3 "/path/to/epfa.py" -l 5
+
 or, this was required for my windows system
 > "/path/to/python3.exe" "/path/to/epfa.py" -i
