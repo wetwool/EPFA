@@ -1,4 +1,4 @@
-# PerimeterFanAdjust
+# External Perimeter Fan Adjust (EPFA)
 Python3 Script to adjust fan speed of external perimeters. Can be used to experiment on quality, strength and overhang behaviour in 3D printing.
 
 ## Requirements
